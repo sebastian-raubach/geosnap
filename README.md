@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sebastian-raubach/geosnap/main/public/geosnap.svg?sanitize=true" width="300" alt="Logo">
+  <img src="https://raw.githubusercontent.com/sebastian-raubach/geosnap/main/public/logo.svg?sanitize=true" width="300" alt="Logo">
 </p>
 
 # GeoSnap - GPX Image geotagging
