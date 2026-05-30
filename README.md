@@ -91,10 +91,10 @@ python geosnap.py ./photos ./track.gpx --output tagged --verbose --no-map
 
 ### Windows convenience wrapper
 
-A `geotag_images.bat` file is included. You can run it the same way from the command prompt, or drag an image folder onto it directly:
+A `geosnap.bat` file is included. You can run it the same way from the command prompt, or drag an image folder onto it directly:
 
 ```
-geotag_images.bat "C:\Photos\Trip2024" "C:\GPS\track.gpx" --offset -1
+geosnap.bat "C:\Photos\Trip2024" "C:\GPS\track.gpx" --offset -1
 ```
 
 ## Output
