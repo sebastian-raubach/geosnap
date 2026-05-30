@@ -47,7 +47,7 @@ pip install gpxpy piexif Pillow
 ## Usage
 
 ```
-python geotag_images.py <image_folder> <gpx_file> [options]
+python geosnap.py <image_folder> <gpx_file> [options]
 ```
 
 ### Arguments
@@ -71,22 +71,22 @@ python geotag_images.py <image_folder> <gpx_file> [options]
 
 Basic usage:
 ```bash
-python geotag_images.py "C:\Photos\Trip2024" "C:\GPS\track.gpx"
+python geosnap.py "C:\Photos\Trip2024" "C:\GPS\track.gpx"
 ```
 
 Camera clock was 2 hours behind GPS (e.g. forgot to set timezone):
 ```bash
-python geotag_images.py ./photos ./track.gpx --offset 2
+python geosnap.py ./photos ./track.gpx --offset 2
 ```
 
 Stricter matching (only tag photos within 1 minute of a trackpoint):
 ```bash
-python geotag_images.py ./photos ./track.gpx --max-gap 60
+python geosnap.py ./photos ./track.gpx --max-gap 60
 ```
 
 Verbose output, custom subfolder name, no map:
 ```bash
-python geotag_images.py ./photos ./track.gpx --output tagged --verbose --no-map
+python geosnap.py ./photos ./track.gpx --output tagged --verbose --no-map
 ```
 
 ### Windows convenience wrapper
